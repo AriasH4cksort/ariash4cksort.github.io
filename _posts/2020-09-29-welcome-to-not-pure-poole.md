@@ -6,4 +6,4 @@ last_modified_at: 2020-10-01 01:08:25 +0800
 tags: [jekyll theme, jekyll, tutorial]
 toc:  true
 ---
-Hola Mi Nombre es Josue esta es mi pagina web 
+Hola amigos como están? 
