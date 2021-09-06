@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="/assets/styles.css"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Vent for Drogs</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Not Pure Poole" />
+<meta name="author" content="Songzi Vong" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="A simple, beautiful, and powerful Jekyll theme for blogs" />
+<meta property="og:description" content="A simple, beautiful, and powerful Jekyll theme for blogs" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Not Pure Poole" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Not Pure Poole" />
+<meta name="twitter:site" content="@vszhub" />
+<meta name="twitter:creator" content="@Songzi Vong" />
+<meta name="google-site-verification" content="xxxxx" />
+<script type="application/ld+json">
+{"description":"A simple, beautiful, and powerful Jekyll theme for blogs","@type":"WebSite","url":"http://localhost:4000/","headline":"Not Pure Poole","sameAs":["https://twitter.com/vszhub","https://github.com/vszhub"],"author":{"@type":"Person","name":"Songzi Vong"},"name":"Songzi Vong","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/logo.png"},"name":"Songzi Vong"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Not Pure Poole" />
+</head>
+
+
+  <body>
+
+    <div class="container pure-g"><div class="sidebar-left pure-u-1 pure-u-md-1-4" style="background-color: rgb(40, 73, 77); color: rgb(255, 255, 255); background-image: url(/bg.jpeg);"><header class="masthead">
+  <div class="avatar"><img src="data:image/jpeg;base64,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" class="avatar-image" alt="Songzi Vong">
+    </div>
+  <div class="masthead-title">
+    <a href="/" title="Home">Drugstore</a>
+  </div>
+  <div class="masthead-tagline">
+    <small>venta de drogas en linea</small>
+  </div><nav class="navigation">
+    <ul class="navigation-list"><li class="navigation-item">
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/">Blog</a>
+      </li><li class="navigation-item">
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/about/">About</a>
+      </li></ul>
+  </nav><div class="social pure-menu pure-menu-horizontal">
+      <ul class="social-icons pure-menu-list">
+      <li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="mailto://vszhub@gmail.com">
+            <i class="fas fa-envelope" title="Email"></i>
+          </a>
+        </li><li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="https://twitter.com/vszhub">
+            <i class="fab fa-twitter" title="Twitter"></i>
+          </a>
+        </li><li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="https://github.com/vszhub/not-pure-poole">
+            <i class="fab fa-github" title="GitHub"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+</header>
+</div>
+
+      <div class="content pure-u-1 pure-u-md-1-2"><main>
+  <div class="home-header pure-menu pure-menu-horizontal">
+  <div class="home-header-bar">
+    
+    <ul class="home-header-menu pure-menu-list">
+      
+        <li class="pure-menu-item">
+          <a href="/dates/" class="pure-menu-link "">Dates</a>
+        </li>
+      
+        <li class="pure-menu-item">
+          <a href="/tags/" class="pure-menu-link "">Tags</a>
+        </li>
+      
+    </ul>
+    
+  </div>
+</div>
+
+
+<div class="posts">
+  
+  <section class="post-entry">
+    <h2 class="post-title">
+      <a href="/2020/10/02/testing-mathjax/">
+        Testing MathJax
+      </a>
+    </h2>
+
+    <div class="post-meta">
+      <time datetime="2020-10-02T01:32:00-06:00">02 Oct 2020</time></div>
+
+    <p>Not Pure Poole supports MathJax. You can enable it on a page by setting math: true in the front matter.
+
+</p>
+  </section>
+  
+  <section class="post-entry">
+    <h2 class="post-title">
+      <a href="/2020/09/30/releasing-not-pure-poole-v0-1-0/">
+        Releasing Not Pure Poole v0.1.0
+      </a>
+    </h2>
+
+    <div class="post-meta">
+      <time datetime="2020-09-30T23:56:00-06:00">30 Sep 2020</time></div>
+
+    <p>The Jekyll theme Not Pure Poole v0.1.0 was released!
+
+</p>
+  </section>
+  
+  <section class="post-entry">
+    <h2 class="post-title">
+      <a href="/2020/09/29/welcome-to-not-pure-poole/">
+        Drugstore
+      </a>
+    </h2>
+
+    <div class="post-meta">
+      <time datetime="2020-09-29T09:18:00-06:00">29 Sep 2020</time></div>
+
+    <p>Welcome to Not Pure Poole! This is an example post to show the layout.
+
+</p>
+  </section>
+  </div>
+
+<div class="pagination">
+  
+    <span class="pagination-item older">Older</span>
+  
+  
+    <span class="pagination-item newer">Newer</span>
+  
+</div>
+
+</main>
+
+<footer class="footer"><small>
+    &copy; 2020&nbsp;-&nbsp;2021 <a href="https://github.com/vszhub/">Songzi Vong</a>. All rights reserved.
+    Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://github.com/vszhub/not-pure-poole">Not Pure Poole</a>.
+  </small>
+</footer>
+</div>
+      <div class="sidebar-right pure-u-1 pure-u-md-1-4">
+</div>
+    </div>
+
+    <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script><script>
+  function strip(str, remove) {
+    while (str.length > 0 && remove.indexOf(str.charAt(0)) != -1) {
+      str = str.substr(1);
+    }
+    while (str.length > 0 && remove.indexOf(str.charAt(str.length - 1)) != -1) {
+      str = str.substr(0, str.length - 1);
+    }
+    return str;
+  }
+
+  function scroll() {
+    console.log('scroll');
+    window.scrollTo({
+      left: 0, 
+      top: window.innerHeight,
+      behavior: 'smooth'
+    });
+    sessionStorage.removeItem('forceCheckScroll');
+  }
+
+  const forceCheckScroll = sessionStorage.getItem('forceCheckScroll') === 'true';
+  const checkScroll = strip(window.location.pathname, '/') !== strip('', '/');
+
+  if (forceCheckScroll || checkScroll) {
+    const maxWidth = "(max-width: 48rem)";
+    const result = window.matchMedia(maxWidth);
+    if (result.matches) {
+      scroll();
+    } else {
+      result.addListener((match) => {
+        if (match.media == maxWidth) {
+          if (match.matches) {
+            scroll();
+          }
+        }
+      });
+    }
+  }
+</script>
+</body>
+</html>
